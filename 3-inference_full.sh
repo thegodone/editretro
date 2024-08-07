@@ -1,6 +1,6 @@
 #!/bin/bash
 
-databin='/home/ubuntu/editretro/datasets/USPTO_FULL/aug5/data-bin/'
+databin='./datasets/USPTO_FULL/aug5/data-bin/'
 
 exp_n=inference_full
 
@@ -16,10 +16,6 @@ input=smiles.csv # src
 
 outputdir=$root_dir/output
 mkdir -p $outputdir
-
-#export PYTHONPATH=$PYTHONPATH:/home/ubuntu/editretro
-
-
 
 CUDA_VISIBLE_DEVICES="0" CUDA_LAUNCH_BLOCKING=1 fairseq-interactive \
         --user-dir editretro  \
