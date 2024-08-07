@@ -24,12 +24,6 @@ pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --e
 pip install -r requirements.txt
 ```
 
-- Install fairseq to enable the use of our model:
-
-```
-cd  editretro/fairseq
-pip install --editable ./
-```
 
 &nbsp;&nbsp;&nbsp; CAUTION & Remarks: 
 1. Set export CUDA_HOME=/usr/local/cuda in .bashrc;
@@ -37,6 +31,13 @@ pip install --editable ./
 ```
 sudo apt install re2c
 sudo apt-get install ninja-build
+```
+
+- Install fairseq to enable the use of our model:
+
+```
+cd  editretro/fairseq
+pip install --editable ./
 ```
 
 
