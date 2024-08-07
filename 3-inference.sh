@@ -2,7 +2,7 @@
 
 databin='/home/ubuntu/editretro/datasets/USPTO_50K/aug20/data-bin/'
 
-exp_n=inference
+exp_n=inference_full
 
 root_dir=./results
 exp_dir=$root_dir/$exp_n
@@ -47,3 +47,4 @@ python ./utils/get_ranked_topk.py \
         -n_best $topk \
         -score_alpha 0.1 \
         -output_edit_step
+
