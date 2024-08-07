@@ -31,7 +31,7 @@ cd  editretro/fairseq
 pip install --editable ./
 ```
 
-&nbsp;&nbsp;&nbsp; Remarks: 
+&nbsp;&nbsp;&nbsp; CAUTION & Remarks: 
 1. Set export CUDA_HOME=/usr/local/cuda in .bashrc;
 2. To ensure a successful installation of fairseq, please make sure to install Ninja first.
 ```
