@@ -90,8 +90,11 @@ Our method achieves the state-of-the-art performance on the USPTO-50K dataset.
 
 ## Inference with our prepared checkpoint
 After download the checkpoints on USPTO-50K and USPTO-FULL https://drive.google.com/drive/folders/1em_I-PN-OvLXuCPfzWzRAUH-KZvSFL-U?usp=sharing, you can edit your own molecule.
+You need to provide / adapt paths corresponding to env in the 3-inferences files (only data-bin dicts are necessary obtained after running preprocess datasets)
 ```shell
-sh ./scripts/3-generate.sh
+sh 3-inference.sh
+or
+sh 3-inference_full.sh
 ```
 
 
