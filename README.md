@@ -11,15 +11,14 @@ In this work, we propose an sequence edit-based retrosynthesis prediction method
 ## Setup
 
 - Create the environment:
+&nbsp;&nbsp;&nbsp; You can install pytorch following the command:
 
 ```
 conda create -n editretro python=3.10.9
-pip install -r requirements.txt
-```
 
-&nbsp;&nbsp;&nbsp; You can install pytorch following the command:
-```
 pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
+
+pip install -r requirements.txt
 ```
 
 - Install fairseq to enable the use of our model:
