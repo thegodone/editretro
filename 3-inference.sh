@@ -17,7 +17,7 @@ input=smiles.csv # src
 outputdir=$root_dir/output
 mkdir -p $outputdir
 
-CUDA_VISIBLE_DEVICES="0" CUDA_LAUNCH_BLOCKING=1 fairseq-interactive \
+fairseq-interactive \
         --user-dir editretro  \
         $databin \
         -s src -t tgt \
