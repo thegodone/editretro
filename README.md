@@ -14,7 +14,11 @@ In this work, we propose an sequence edit-based retrosynthesis prediction method
 &nbsp;&nbsp;&nbsp; You can install pytorch following the command:
 
 ```
+git clone https://github.com/thegodone/editretro.git
+
+
 conda create -n editretro python=3.10.9
+
 
 pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
 
@@ -24,7 +28,6 @@ pip install -r requirements.txt
 - Install fairseq to enable the use of our model:
 
 ```
-git clone https://github.com/yuqianghan/editretro.git
 cd  editretro/fairseq
 pip install --editable ./
 ```
