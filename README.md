@@ -10,8 +10,7 @@ In this work, we propose an sequence edit-based retrosynthesis prediction method
 
 ## Setup
 
-- Create the environment:
-&nbsp;&nbsp;&nbsp; You can install pytorch following the command:
+- Create the environment & than install specific pytorch version using following the command & install other pip requirements:
 
 ```
 git clone https://github.com/thegodone/editretro.git
